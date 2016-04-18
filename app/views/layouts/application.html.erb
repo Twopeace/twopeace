@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twopeace</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="jquery.sticky-footer.min.js"></script>
+</head>
+<body>
+  <header>
+    <%= render 'layouts/navbar' %>
+  </header>
+<%= yield %>
+  <%= render 'layouts/footer' %>
+
+</body>
+</html>
