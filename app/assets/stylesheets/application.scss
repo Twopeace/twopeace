@@ -1,0 +1,341 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ @import "font-awesome-sprockets";
+ @import "font-awesome";
+ */
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+#title{
+  float: left;
+  margin-left: 20px;
+  color: black;
+  font-size: 30px;
+}
+
+#title_footer{
+  float: left;
+  margin-left: 20px;
+  color: black;
+  font-size: 20px;
+  margin-top: 5px; 
+}
+
+#navbar{
+  margin-top: 20px;
+  height: 50px;
+}
+
+.footer{
+  height: 35px;
+  width: 100%;
+  background-color: #f2f2f2; 
+}
+
+.directory{
+  float: right;
+  margin-right: 40px;
+  padding-top: 10px;
+}
+
+.directory_foot{
+  float: right;
+  font-size: 3px;
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.body_1{
+  height: 600px;
+  background-color: #f2f2f2;
+  margin-top: 30px;
+}
+
+.body_2{
+  height: 600px;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.body_title{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 200px;
+}
+
+.body_text{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.summary{
+  float: left;
+  width: 100%;
+}
+
+.sub_summary{
+  float: left;
+  margin-left: 50px;
+}
+
+.summary_title{
+  text-align: center;
+  font-size: 23px;
+  padding-top: 150px;
+  margin-left: 40px;
+  width: 200px;
+  border-bottom: solid 1px;
+}
+
+.summary_text{
+  text-align: center;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 40px;
+  width: 200px;
+}
+
+.wrapper{
+  text-align: center;
+}
+
+.head_buttons{
+  margin-top: 50px;
+  height: 60px;
+  width: 200px;
+  font-size: 18px;
+  border: 1px solid #666;
+  text-decoration: none;
+  color:#000;
+  background-color: #dcdcdc;
+}
+
+.summary_buttons{
+  margin-top: 30px;
+  height: 20px;
+  width: 100px;
+  margin-left: 90px;
+  font-size: 10px;
+  border: 1px solid #666;
+  text-decoration: none;
+  color:#000;
+  background-color: #dcdcdc;
+}
+
+#copyright{
+  text-align: center;
+  padding-top: 8px;
+  margin-left: 350px;
+}
+
+.summary{
+  width: 50px;
+}
+
+.who_we_are_title{
+  text-align: center;
+  padding-top: 60px;
+}
+
+.who_we_are_body{
+  text-align: center;
+  padding-top: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 20px;
+}
+
+.advertise{
+  height: 100px;
+  background-color: black;
+  text-align: center;
+}
+
+.advertext{
+  color: white;
+  float: left;
+  margin-top: 40px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.advertise_button{
+  float: right;
+  margin-top: 30px;
+  margin-right: 200px;
+  height: 40px;
+  width: 200px;
+  border-radius: 50px;
+}
+
+#what_do_we_do_title{
+  text-align: center;
+  padding-top: 30px;
+}
+
+#left_bullets{
+  text-align: center;
+  float: left;
+  margin-left: 300px;
+  padding-top: 100px;
+}
+
+#right_bullets{
+  text-align: center;
+  float: right;
+  margin-right: 300px;
+  padding-top: 100px;
+}
+
+.bullets{
+  padding-top: 50px;
+}
+
+#our_creations_title{
+  text-align: center;
+  padding-top: 60px;
+}
+
+#our_mission_title{
+  text-align: center;
+  padding-top: 40px;
+
+}
+
+#our_mission_body{
+  text-align: center;
+  padding-top: 110px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+}
+
+#crew_header{
+  height: 200px;
+  background-color: #f2f2f2; 
+}
+
+#crew_title{
+  text-align: center;
+  font-size: 45px;
+  padding-top: 65px;
+}
+
+#crew_slogan{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+#crew_para{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+#scot_pic{
+  height: 450px;
+  width: 670px;
+  border-radius: 20px;
+  margin-left: 290px;
+  margin-top: 65px;
+}
+
+#name{
+  text-align: center;
+  color: black;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#x{
+  text-align: center;
+  font-size: 20px;
+}
+
+#under_pic_text{
+  text-align: center;
+  margin-bottom: 50px;
+  color: grey;
+  font-size: 20px;
+}
+
+#work_header{
+  height: 200px;
+  background-color: #f2f2f2; 
+}
+
+#work_title{
+  text-align: center;
+  font-size: 45px;
+  padding-top: 65px;
+}
+
+#contact_header{
+  height: 200px;
+  background-color: #f2f2f2; 
+}
+
+#contact_title{
+  text-align: center;
+  font-size: 45px;
+  padding-top: 65px;
+}
+
+.projects{
+  text-align: center;
+}
+
+.project-img{
+  height: 500px;
+  width: 900px;
+  position: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px grey;
+  margin-top: 40px;
+}
+
+.project-label{
+  font-family: 'Raleway', sans-serif;
+  padding-top: 10px;
+}
