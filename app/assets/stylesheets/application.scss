@@ -349,6 +349,7 @@ a:active {
 
 .new_contact{
   float: left;
+  width: 500px;
 }
 
 #contact_title{
@@ -360,19 +361,32 @@ a:active {
 #contact_wrapper{
   float: left;
   margin-left: 50px;
-  margin-top: 60px;
+  margin-top: 100px;
 }
 
 .hidden{
   display: none;
 }
 
+.contact_div{
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  display: inline-block;
+}
+
 .contact_input{
-  width: 400px;
+  width: 150px;
   height: 30px;
   margin-top: 10px;
   margin-bottom: 30px;
   font-size: 15px;
+}
+
+.contact_labels{
+  display: inline-block;
 }
 
 #message{
@@ -385,5 +399,17 @@ a:active {
 
 .submit_form{
   margin-right: 900px;
+}
+
+#social_media{
+  width: 500px;
+  height: 371px;
+  display: inline-block;
+  float: right;
+}
+
+#social_header{
+  float: right;
+  border-bottom: solid 1px;
 }
 
