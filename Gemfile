@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 ruby '2.2.2'
 
 gem 'rails_12factor', '~> 0.0.3'
-gem 'phony_rails', '~> 0.13.0'
 gem 'rails', '4.2.5'
 gem 'pg', '~> 0.15'
 gem 'sass-rails', '~> 5.0'
