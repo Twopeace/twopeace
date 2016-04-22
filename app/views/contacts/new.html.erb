@@ -7,30 +7,30 @@
     <%= form_for @contact do |f| %>
     <div class='contact_div'>
       <%= f.label :first_name, :class => "contact_labels" %><br>
-      <%= f.text_field :first_name, :class => "contact_input", required: true %>
+      <%= f.text_field :first_name, :class => "contact_input", :placeholder => "First Name", required: true %>
     </div>
 
     <div class='contact_div'>
       <%= f.label :last_name, :class => "contact_labels" %><br>
-      <%= f.text_field :last_name, :class => "contact_input", required: true %>
+      <%= f.text_field :last_name, :class => "contact_input", :placeholder => "Last Name", required: true %>
     </div>
 
       <br>
 
     <div class='contact_div'>
       <%= f.label :email, :class => "contact_labels" %><br>
-      <%= f.email_field :email, :class => "contact_input", required: true %>
+      <%= f.email_field :email, :class => "contact_input", :placeholder => "Email", required: true %>
     </div>
 
     <div class='contact_div'>
       <%= f.label :phone_number, :class => "contact_labels" %><br>
-      <%= f.email_field :phone_number, :class => "contact_input", required: true %>
+      <%= f.text_field :phone_number, :class => "contact_input", :placeholder => "222-222-2222", required: true %>
     </div>
   
       <br>
   
       <%= f.label :message, :class => "contact_labels" %><br>
-      <%= f.text_area :message, :id => "message", as: :text %>
+      <%= f.text_area :message, :id => "message", :placeholder => "Leave us a message!", as: :text %>
   
       <div class="hidden">
         <%= f.label :nickname, :class => "contact_labels" %><br>
@@ -39,10 +39,9 @@
   
       <%= f.submit 'Send Message', class: "submit_form" %>
     <% end %>
-  <div id='social_media'>
-    <h2 id='social_header'> Follow Us </h2>
-  </div>
-</div> 
+    <div id='social_media'>
+      <h2 id='social_header'> Follow Us </h2>
+    </div>
+  </div> 
 
-  
 </div>

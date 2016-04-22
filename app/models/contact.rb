@@ -1,8 +1,8 @@
 class Contact < MailForm::Base
   attribute :first_name,    :validate => true
   attribute :last_name,     :validate => true
+  attribute :phone_number,  :validate => /\A\d{3}-\d{3}-\d{4}\z/ 
   attribute :email,         :validate => /\A([\w\.%\+\-]+)@([\w\-]+\.)+([\w]{2,})\z/i
-  attribute :phone_number,   :validate => true
   attribute :message,       :validate => true
   attribute :nickname,      :captcha => true
 
@@ -10,7 +10,7 @@ class Contact < MailForm::Base
     {
       :subject => "Twopeace Contact Form",
       :to => "scotchard@twopeace.co",
-      :from => %("#{name}" <#{email}>)
+      :from => %("#{first_name}" "#{last_name}" <#{email}> "#{phone_number}")
     }
   end
 end 
