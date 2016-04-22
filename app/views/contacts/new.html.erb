@@ -1,0 +1,30 @@
+<div id='contact_header'>
+  <h1 id='contact_title'> CONTACT US </h1>
+</div>
+
+<div class='body_2'>
+  <div id="contact_wrapper">
+    <%= form_for @contact do |f| %>
+      <%= f.label :name, :class => "contact_labels" %><br>
+      <%= f.text_field :name, :class => "contact_input", required: true %>
+  
+      <br>
+  
+      <%= f.label :email, :class => "contact_labels" %><br>
+      <%= f.email_field :email, :class => "contact_input", required: true %>
+  
+      <br>
+  
+      <%= f.label :message, :class => "contact_labels" %><br>
+      <%= f.text_area :message, :id => "message", as: :text %>
+  
+      <div class="hidden">
+        <%= f.label :nickname, :class => "contact_labels" %><br>
+        <%= f.text_field :nickname, :class => "contact_input", hint: 'leave this field blank' %>
+      </div>
+  
+      <%= f.submit 'Send Message', class: "submit_form" %>
+    <% end %>
+  </div> 
+  
+</div>
