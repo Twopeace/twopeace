@@ -16,10 +16,12 @@
  @import "font-awesome";
  */
 
-*{
-  padding: 0;
-  margin: 0;
+html, body{
+  padding: 0px;
+  margin: 0px;
   font-family: 'Raleway', sans-serif;
+  width: 100%;
+  overflow-x: hidden; 
 }
 
 #title{
@@ -82,6 +84,13 @@ a:active {
   text-decoration: none;
 }
 
+.home_div{
+  height: 600px;
+  width: 100%;
+  background-image: url("tpbg2.jpg") ;
+  margin-top: 30px;
+}
+
 .body_1{
   height: 600px;
   background-color: #f2f2f2;
@@ -111,15 +120,21 @@ a:active {
   width: 100%;
 }
 
+.fa{
+  margin-left: 80px;
+  color: #ffb3b3;
+}
+
 .sub_summary{
   float: left;
+  margin-top: 50px;
   margin-left: 50px;
 }
 
 .summary_title{
   text-align: center;
   font-size: 23px;
-  padding-top: 150px;
+  padding-top: 20px;
   margin-left: 40px;
   width: 200px;
   border-bottom: solid 1px;
@@ -249,8 +264,9 @@ a:active {
 }
 
 #crew_header{
-  height: 200px;
-  background-color: #f2f2f2; 
+  height: 300px;
+  background-image: url("tpbg.jpg") ;
+  margin-top: 30px; 
 }
 
 #crew_space{
@@ -260,7 +276,8 @@ a:active {
 #crew_title{
   text-align: center;
   font-size: 45px;
-  padding-top: 65px;
+  padding-top: 120px;
+  color: white;
 }
 
 #crew_slogan{
@@ -306,19 +323,22 @@ a:active {
 }
 
 #work_header{
-  height: 200px;
-  background-color: #f2f2f2; 
+  height: 300px;
+  width: 100%;
+  background-image: url("tpbg3.jpg") ;
+  margin-top: 30px; 
 }
 
 #work_title{
   text-align: center;
   font-size: 45px;
-  padding-top: 65px;
+  padding-top: 120px;
+  color: white;
 }
 
 #work_space{
   height: 600px;
-  margin-bottom: 200px;
+  margin-bottom: 280px;
 }
 
 #work_top{
@@ -342,25 +362,42 @@ a:active {
   padding-top: 50px;
 }
 
-#contact_header{
-  height: 200px;
-  background-color: #f2f2f2; 
+#contact_div{
+  height: 300px;
+  background-image: url("tpbg4.jpg") ; 
+  margin-top: 30px;
+}
+
+.contact_body{
+  height: 670px;
+  background-color: white;
+  margin-top: 30px;
+}
+
+::-webkit-input-placeholder{
+  color: grey;
+  padding-left: 10px;
 }
 
 .new_contact{
   float: left;
   width: 500px;
+  height: 456px;
+  background-color: #f2f2f2; 
+  border-radius: 10px;
 }
 
 #contact_title{
   text-align: center;
   font-size: 45px;
-  padding-top: 65px;
+  padding-top: 120px;
+  color: white;
 }
 
 #contact_wrapper{
   float: left;
   margin-left: 50px;
+  margin-right: 50px;
   margin-top: 100px;
 }
 
@@ -372,29 +409,30 @@ a:active {
   width: 200px;
   height: 50px;
   margin-top: 10px;
+  padding-left: 30px;
   margin-bottom: 30px;
   font-size: 15px;
   display: inline-block;
 }
 
 .contact_input{
-  width: 150px;
+  width: 180px;
   height: 30px;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 20px;
   font-size: 15px;
-}
-
-.contact_labels{
-  display: inline-block;
+  border: 0;
+  border-radius: 5px;
 }
 
 #message{
-  width: 400px;
+  width: 385px;
   height: 100px;
-  margin-top: 10px;
+  padding-left: 20px;
+  margin-top: 30px;
   margin-bottom: 30px;
   font-size: 15px;
+  border-radius: 5px;
+  border: 0;
 }
 
 .submit_form{
@@ -403,13 +441,36 @@ a:active {
 
 #social_media{
   width: 500px;
-  height: 371px;
+  height: 456px;
+  margin-left: 150px;
   display: inline-block;
   float: right;
+  background-color: #f2f2f2; 
+  border-radius: 10px;
+}
+
+#social_align{
+  display: inline-block;
+}
+
+.social_icons{
+  color: black;
+  margin-left: 150px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+#contact_header{
+  float: left;
+  padding-top: 5px;
+  margin-left: 110px;
+  border-bottom: solid 1px;
 }
 
 #social_header{
   float: right;
+  padding-top: 5px;
+  margin-right: 175px;
   border-bottom: solid 1px;
 }
 

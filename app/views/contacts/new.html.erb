@@ -1,46 +1,55 @@
-<div id='contact_header'>
+<div id='contact_div'>
   <h1 id='contact_title'> CONTACT US </h1>
 </div>
 
-<div class='body_2'>
+<div class='contact_body'>
   <div id="contact_wrapper">
     <%= form_for @contact do |f| %>
-    <div class='contact_div'>
-      <%= f.label :first_name, :class => "contact_labels" %><br>
-      <%= f.text_field :first_name, :class => "contact_input", :placeholder => "First Name", required: true %>
-    </div>
+      <h2 id='contact_header'>LEAVE US A MESSAGE</h2>
 
-    <div class='contact_div'>
-      <%= f.label :last_name, :class => "contact_labels" %><br>
-      <%= f.text_field :last_name, :class => "contact_input", :placeholder => "Last Name", required: true %>
-    </div>
+        <br><br>
 
-      <br>
-
-    <div class='contact_div'>
-      <%= f.label :email, :class => "contact_labels" %><br>
-      <%= f.email_field :email, :class => "contact_input", :placeholder => "Email", required: true %>
-    </div>
-
-    <div class='contact_div'>
-      <%= f.label :phone_number, :class => "contact_labels" %><br>
-      <%= f.text_field :phone_number, :class => "contact_input", :placeholder => "222-222-2222", required: true %>
-    </div>
-  
-      <br>
-  
-      <%= f.label :message, :class => "contact_labels" %><br>
-      <%= f.text_area :message, :id => "message", :placeholder => "Leave us a message!", as: :text %>
-  
-      <div class="hidden">
-        <%= f.label :nickname, :class => "contact_labels" %><br>
-        <%= f.text_field :nickname, :class => "contact_input", hint: 'leave this field blank' %>
+      <div class='contact_div'>
+        <%= f.text_field :first_name, :class => "contact_input", :placeholder => "First Name*", required: true %>
       </div>
-  
-      <%= f.submit 'Send Message', class: "submit_form" %>
+
+      <div class='contact_div'>
+        <%= f.text_field :last_name, :class => "contact_input", :placeholder => "Last Name*", required: true %>
+      </div>
+
+        <br>
+
+      <div class='contact_div'>
+        <%= f.email_field :email, :class => "contact_input", :placeholder => "Email*", required: true %>
+      </div>
+
+      <div class='contact_div'>
+        <%= f.text_field :phone_number, :class => "contact_input", :placeholder => "222-222-2222*", required: true %>
+      </div>
+    
+        <br>
+      <div class='contact_div'>
+        <%= f.text_area :message, :id => "message", :placeholder => "We would love for you to leave us a message!", as: :text %>
+      </div>  
+    
+        <div class="hidden">
+          <%= f.label :nickname, :class => "contact_labels" %><br>
+          <%= f.text_field :nickname, :class => "contact_input", hint: 'leave this field blank' %>
+        </div>
+      <div class='contact_div'>
+        <%= f.submit 'Send Message', class: "submit_form" %>
+      </div>  
     <% end %>
     <div id='social_media'>
-      <h2 id='social_header'> Follow Us </h2>
+      <h2 id='social_header'> FOLLOW US </h2>
+      <div id='social_align'>
+        <i class="fa fa-facebook fa-3x social_icons" aria-hidden="true"></i>
+        <i class="fa fa-instagram fa-3x social_icons" aria-hidden="true"></i>
+      </div>
+      <div id='social_align'>
+        <i class="fa fa-linkedin fa-3x social_icons" aria-hidden="true"></i>  
+        <i class="fa fa-twitter fa-3x social_icons" aria-hidden="true"></i>
+      </div>
     </div>
   </div> 
 
