@@ -24,6 +24,10 @@ html, body{
   overflow-x: hidden !important; 
 }
 
+h1{
+  margin-top: 0 !important;
+}
+
 #title{
   float: left;
   margin-left: 50px;
@@ -41,13 +45,15 @@ html, body{
 }
 
 #navbar{
-  height: 50px;
+  height: 60px;
 }
 
 .footer{
   height: 35px;
   width: 100%;
   background-color: #f2f2f2; 
+  margin: 0;
+  padding: 0;
 }
 
 .directory{
@@ -197,6 +203,7 @@ a:active {
   text-align: center;
   padding-top: 10px;
   margin-left: 350px;
+  margin-bottom: 0px;
 }
 
 .summary{
@@ -210,6 +217,7 @@ a:active {
 }
 
 #who_under_border{
+  padding-top: 10px;
   border-bottom: solid 1px;
   width: 100px;
   margin-left: 250px;
@@ -281,9 +289,11 @@ a:active {
   height: 40px;
   width: 200px;
   border-radius: 50px;
-  border: solid 1px !important;
+  border: solid 1px #666;
   color: white !important;
   background-color: #262626 !important; 
+  font-size: 16px !important;
+  text-decoration: none;
 }
 
 #what_do_we_do_title{
@@ -350,8 +360,7 @@ a:active {
 
 #our_mission_title{
   text-align: center;
-  padding-top: 20px;
-
+  padding-top: 30px;
 }
 
 #our_mission_body{
@@ -403,6 +412,12 @@ a:active {
   font-size: 40px;
   font-weight: bold;
   padding-bottom: 10px;
+}
+
+.crew_under_border{
+  border-bottom: solid 1px;
+  width: 100px;
+  margin-left: 570px;
 }
 
 #crew_para{
