@@ -44,8 +44,16 @@ h1{
   margin-top: 5px; 
 }
 
+#twopeacelogo{
+  padding-top: 5px;
+  height: 100px;
+  width: 250px;
+  margin-left: 30px;
+
+}
+
 #navbar{
-  height: 60px;
+  height: 110px;
 }
 
 .footer{
@@ -59,7 +67,8 @@ h1{
 .directory{
   float: right;
   margin-right: 40px;
-  padding-top: 20px;
+  padding-top: 45px;
+  font-size: 20px !important;
 }
 
 .directory_foot{
@@ -101,7 +110,7 @@ a:active {
 }
 
 .who_we_are_div{
-  height: 600px;
+  height: 570px;
   background-color: #262626;
 }
 
@@ -111,7 +120,7 @@ a:active {
 }
 
 .our_mission_div{
-  height: 400px;
+  height: 410px;
   background-color: white;
 }
 
@@ -214,10 +223,10 @@ a:active {
   margin-left: 190px;
   padding-top: 30px;
   color: #e6e6e6;
+  width: 250px;
 }
 
 #who_under_border{
-  padding-top: 10px;
   border-bottom: solid 1px;
   width: 100px;
   margin-left: 250px;
@@ -245,9 +254,9 @@ a:active {
 .who_we_are_img{
   height: 500px;
   width: 550px;
-  margin-top: 20px;
   margin-right: 20px;
   margin-left: 40px;
+  margin-top: 5px;
   display: inline-block;
   float: left;
 }
@@ -262,10 +271,11 @@ a:active {
 }
 
 #home_img1{
-  height: 500px;
-  width: 500px;
+  height: 430px;
+  width: 430px;
   border-radius: 100%;
-  margin-left: 40px;
+  margin-left: 100px;
+  margin-top: 30px;
 }
 
 .advertise{
@@ -303,7 +313,7 @@ a:active {
 
 .what_do_we_do_text_div{
   width: 470px;
-  margin-left: 400px;
+  margin-left: 420px;
   margin-top: 25px;
   padding: 10px;
 }
@@ -313,7 +323,7 @@ a:active {
   width: 360px;
   float: left;
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 30px;
   margin-right: 20px;
   padding-top: 50px;
   padding-left: 30px;
@@ -339,7 +349,7 @@ a:active {
 .what_we_do_body{
   text-align: center;
   margin-top: 40px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .what_do_we_do_text{
@@ -349,7 +359,7 @@ a:active {
 
 .what_do_we_do_text2{
   font-size: 18px;
-  line-height: 10px;
+  line-height: 20px;
   padding-left: 10px;
 }
 
@@ -365,7 +375,10 @@ a:active {
 
 #our_mission_body{
   text-align: center;
-  padding-top: 60px;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 40px;
   width: 800px;
   margin-left: 225px;
   margin-right: 225px;
@@ -379,7 +392,7 @@ a:active {
 }
 
 .our_mission_button{
-  margin-top: 30px;
+  margin-top: 15px;
   height: 40px;
   width: 200px;
   font-size: 16px !important;
@@ -391,7 +404,7 @@ a:active {
 }
 
 #crew_header{
-  height: 300px;
+  height: 400px;
   background-color: #262626;
 }
 
@@ -401,8 +414,8 @@ a:active {
 
 #crew_title{
   text-align: center;
-  font-size: 60px;
-  padding-top: 120px;
+  font-size: 70px;
+  padding-top: 160px;
   color: white;
 }
 
@@ -459,22 +472,18 @@ a:active {
 }
 
 #work_header{
-  height: 300px;
+  height: 400px;
   width: 100%;
   background-color: #262626; 
 }
 
 #work_title{
   text-align: center;
-  font-size: 60px;
-  padding-top: 120px;
+  font-size: 70px;
+  padding-top: 160px;
   color: white;
 }
 
-#work_space{
-  height: 600px;
-  margin-bottom: 280px;
-}
 
 #work_top{
   font-size: 40px;
@@ -491,15 +500,34 @@ a:active {
   font-size: 20px;
 }
 
-#puppy{
-  height: 500px;
+.work_under_border{
+  border-bottom: solid 1px;
+  width: 100px;
+  margin-left: 580px;
+}
+
+#work_in_progress{
   width: 850px;
-  margin-left: 210px;
-  padding-top: 50px;
+  height: 500px;
+  margin-left: 220px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: inline-block;
+  background-color: #262626; 
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #e6e6e6;
+}
+
+#cat_vid{
+  margin-left: 48px;
+  margin-top: 35px;
+  width: 750px;
+  height: 430px;
+  border-radius: 10px; 
 }
 
 #contact_div{
-  height: 300px;
+  height: 400px;
   background-color: #262626; 
 }
 
@@ -524,8 +552,8 @@ a:active {
 
 #contact_title{
   text-align: center;
-  font-size: 60px;
-  padding-top: 120px;
+  font-size: 70px;
+  padding-top: 160px;
   color: white;
 }
 
